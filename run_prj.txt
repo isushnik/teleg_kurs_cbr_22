@@ -1,0 +1,14 @@
+
+docker build -t tlgv1 .
+
+docker images
+
+docker run --rm -it tlgv1
+
+docker rmi cf1e6bc1012e
+
+docker ps -a
+
+
+
+pip3 install pyTelegramBotAPI
